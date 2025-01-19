@@ -6,3 +6,6 @@ edition = "2021"
 [dependencies]
 log = "0.4.25"
 rust-i18n = "3.1.2"
+[lib]
+name = "logger_rust_i18n"
+path = "src/lib.rs"
