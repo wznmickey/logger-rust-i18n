@@ -32,7 +32,3 @@ macro_rules! trace {
         log::log!(log::Level::Trace, "{}", rust_i18n::t!($fmt, $($args)*));
     };
 }
-
-fn main() {
-    // Your code here
-}
