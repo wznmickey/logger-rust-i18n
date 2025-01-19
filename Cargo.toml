@@ -9,3 +9,4 @@ rust-i18n = "3.1.2"
 [lib]
 name = "logger_rust_i18n"
 path = "src/lib.rs"
+crate-type = ["rlib"]
