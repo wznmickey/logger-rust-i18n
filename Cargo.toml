@@ -1,5 +1,5 @@
 [package]
-name = "logger-rust-i18n"
+name = "logger_rust_i18n"
 version = "0.1.0"
 edition = "2021"
 
