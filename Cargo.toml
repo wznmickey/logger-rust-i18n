@@ -1,5 +1,5 @@
 [package]
-name = "logger-rust-i18n"
+name = "logger_rust_i18n"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,6 +7,5 @@ edition = "2021"
 log = "0.4.25"
 rust-i18n = "3.1.2"
 [lib]
-name = "logger_rust_i18n"
-path = "src/lib.rs"
+
 crate-type = ["rlib"]
