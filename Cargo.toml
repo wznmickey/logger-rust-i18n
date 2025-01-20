@@ -1,6 +1,6 @@
 [package]
 name = "logger_rust_i18n"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Macro rust-i18n into logger and user prompt"
 license = "MIT"
