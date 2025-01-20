@@ -5,7 +5,7 @@ edition = "2021"
 description = "Macro rust-i18n into logger and user prompt"
 license = "MIT"
 repository = "https://github.com/wznmickey/logger-rust-i18n"
-categories = ["command-line-utilities","international"]
+categories = ["command-line-utilities","internationalization","localization"]
 keywords = ["i18n", "logger"]
 
 [dependencies]
