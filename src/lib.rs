@@ -32,3 +32,9 @@ macro_rules! trace {
         log::log!(log::Level::Trace, "{}", rust_i18n::t!(format!( $($args)*)));
     };
 }
+#[macro_export]
+macro_rules! prompt {
+    ( $($args:tt)*) => {
+        rust_i18n::t!(format!( $($args)*));
+    };
+}
