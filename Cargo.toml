@@ -4,10 +4,14 @@ version = "0.1.0"
 edition = "2021"
 description = "Macro rust-i18n into logger and user prompt"
 license = "MIT"
+repository = "https://github.com/wznmickey/logger-rust-i18n"
+categories = ["command-line-utilities","international"]
+keywords = ["i18n", "logger"]
 
 [dependencies]
 log = "0.4.25"
 rust-i18n = "3.1.2"
+
 [lib]
 name = "logger_rust_i18n"
 path = "src/lib.rs"
